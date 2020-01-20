@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+ #wrapper{
+ 	max-width: 1200px;
+ 	width: 100%;
+ 	margin: 0 auto;
+ }
+		.gaminghead{		
+		height: 100px;
+		width: 100%;
+		}
+
+	.gaminghead a{
+		background-color: #000000;
+		display: block;
+		padding: 15px 0;
+		text-align: center;
+		text-decoration: none;
+		font-size: 60px;
+		font-family: 'AR DESTINE';
+		letter-spacing: 5px;
+		color:#66ff33;
+		transition: all 0.5s linear;
+	}
+	.gaminghead a:hover{
+		letter-spacing: 7px;
+		color: grey;
+		background: url(images/nsk.jpg);
+			background-size: cover;
+	}
+	.head{
+		
+		height: 50px;
+		width: 100%;
+		background-color:  #006600;
+		transition: all 0.5s linear;
+	}
+	.head:hover{
+		background-color: #336633;
+	}
+	ul{
+		margin: 0;
+	}
+	ul li{
+		float: left;
+		list-style-type: none;
+	}
+	ul li a{
+		padding: 10px 22px;
+		text-decoration: none;
+		color: black;
+		display: block;
+		font-size: 25px;
+		font-family: 'AR DESTINE';
+		transition: all 0.5s linear;
+	}
+	ul li a:hover{
+		background-color: #006600;
+		color: white;
+		box-shadow: 0 3px 0 3px black;
+		display:block;
+		}	
+	.dropdown{
+		position: absolute;
+		padding: 5px;
+		width: 130px;
+		display: none;
+		z-index: 1;
+		background-color: #006600;
+	 box-shadow: 0 3px 0 3px grey;
+	 }
+	
+ .dropdown:hover{
+ 	background-color: #336633;
+ 	box-shadow: 0 3px 0 3px black;
+ 	 }
+ 	 .dropdown{
+ 	 	transition: all 0.3s linear; 
+ 	 }
+ 	 .dropbtn:hover .dropdown{
+ 	 	display: block;
+ 	 }

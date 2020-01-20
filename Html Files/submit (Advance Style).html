@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+input[type=text], select{
+	width: 100%;
+	padding: 14px 30px;
+	margin:8px 9px;
+	border: 1px solid #000;
+	box-sizing: border-box;
+}
+input[type=text]:hover{
+	background-color: yellow;
+}
+input[type=submit]{
+	width: 50%;
+	background-color: green;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: ridge;
+	border-radius: 9px;
+	cursor: none;
+}
+input[type=submit]:hover{
+	background-color: #45a049;
+}
+div{
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	width: 50%;
+}
+</style>
+<head>
+	<title></title>
+</head>
+<body>
+
+<h3 style="color: #336699">Using CSS to style an HTML Form</h3>
+
+<div>
+	<form action="/action-page.php">
+	<label for="fname">First name</label>
+	<input type="text" id="fname" name="firstname" placeholder="your name..">
+
+	<label for="lname">Last name</label>
+	<input type="text" id="lname" name="last name" placeholder="your last name">
+
+	<label for="country"> Country</label>
+	<select id="country" name="country">
+	<option value="Australia">Australia</option> 
+	<option value="Canada">Canada</option>
+	<option value="USA">USA</option>
+	</select>
+
+	<input type="submit" name="submit">
+</div>
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web</title>
+	<style type="text/css">
+	body{
+		padding: 0;
+		margin: 0;
+	}
+	#wrapper{
+		max-width: 980px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.nav{
+		background-color: black;
+		height: 68px;
+	}
+	ul{
+		width:;
+		list-style-type: none;
+		overflow: auto;
+		padding: 0;
+		margin: 0;
+		background: black;
+	}
+	li{
+		float:left;
+	}
+	ul li a{
+		display: block;
+		color: lime;
+		padding: 20px 50px;
+		text-decoration: none;
+		transition:all 1s linear;
+	}
+	ul li a:hover{
+		background: blue;
+		color: black;
+	}
+	.back{
+		height: 500px;
+		width: 100%;
+		background: url(back.jpg);
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	}
+	.caption{
+		width: 20%;
+		height: 200px;
+		position: relative;
+		left: 10%;
+		top: 20%;
+	}
+	.about{
+		height: 400px;
+		width: 100%;
+		background:#eee; 
+	}
+	.left{
+		width:40%;
+		height: 240px;
+		float: left;
+		margin-top: 130px;
+		margin-bottom: 130px; 
+		border-radius: 5px;
+		overflow: hidden;
+	}
+	.left img{
+		width: 100%;
+		height: auto;
+		transition:all 0.1s linear;
+	}
+	.left img:hover{
+		transform:scale(1.2);
+	}
+	.right{
+		float: right;
+		width: 40%;
+		height: 300px;
+		margin: 100px 30px; 
+	}
+	.services{
+		height: 500px;
+		width: 100%;
+		background:black; 
+	}
+	.con{
+		width: 29.33%;
+		height: 300px;
+		float: left;
+		margin-left:30px; 
+		overflow: hidden;
+	}
+	.con h3{
+		color: grey;
+		text-align: center;
+		border-bottom: solid 1px red;
+		padding: 10px 0;
+	}
+	.con p{
+		color: white;
+		text-align: center;
+	}
+	.con img{
+		width: 100%;
+		height: 150px;
+		transition:all 0.1s linear;
+	}
+	.con img:hover{
+		transform: scale(1.2);
+	}
+	</style>
+</head>
+<body>
+	<div class="nav">
+		<div id="wrapper">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Service</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Join</a></li>
+				<li><a href="#">Panda</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="back">
+		<div class="caption">
+			<h3>HELLO WORLD</h3>
+			<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			</P>
+		</div>
+	</div>
+	<div class="about">
+		<div id="wrapper">
+			<div class="left">
+				<img src="background.jpg">
+			</div>
+			<div class="right">
+				<h2>THIS IS A HEADING</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				qu	is nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+			</div>
+		</div>
+	</div>
+	<div class="services">
+		<div id="wrapper">
+			<div class="row">
+				<div class="con">
+						<span>	
+					<img src="a.jpg">
+					</span>
+					<h3>great works</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur +adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. </p>
+				</div>
+				<div class="con">
+					<img src="a.jpg">
+					<h3>support center</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+				</div>
+				<div class="con">
+					<img src="a.jpg">
+					<h3>upto date products</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

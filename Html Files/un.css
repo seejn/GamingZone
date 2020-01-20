@@ -1,0 +1,37 @@
+body{
+	margin: 0;
+	padding: 0;
+	}
+	.clear::after{
+		display: table;
+		clear: both;
+		content: '';
+	}
+	#wrapper{
+		max-width: 1200px;
+		margin: 0 auto;
+		widows: 100%;
+	}
+	/*Header start */
+	.header{
+		background-color: #75a75a;
+	}
+		ul{
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
+		ul li a{
+			text-transform: uppercase;
+			display: block;
+			padding: 20px 25px;
+			text-decoration: none;
+			color: white;
+		}
+		ul li{
+			float: left;
+		}
+		ul li a:hover{
+			background-color:red; 
+			color:grey;
+		}

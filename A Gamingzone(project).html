@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gaming Zone</title>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+</head>
+<body>
+<style type="text/css">
+body{
+	margin: 0;
+	padding: 0;
+}
+ #wrapper{
+ 	max-width: 95%;
+ 	width: 100%;
+ 	margin: 0 auto;
+ }
+	.gaminghead{		
+		height: 100px;
+		width: 100%;
+		background-color: #000000;
+		}
+	.gaminghead:hover{
+		background: url(images/nsk.jpg);
+	}
+
+	.gaminghead a{
+		
+		display: block;
+		padding: 15px 50px;
+		text-align: center;
+		text-decoration: none;
+		font-size: 60;
+		font-family: 'AR DESTINE';
+		letter-spacing: 5px;
+		color:#66ff33;
+		transition: all 0.5s linear;
+		}
+	.gaminghead a:hover{
+		letter-spacing: 7px;
+		color: grey;
+		
+		background-size: cover;
+	}
+	.head{
+		
+		height: 50px;
+		width: 100%;
+		background-color:  #006600;
+		transition: all 0.5s linear;
+	}
+	.head:hover{
+		background-color: #336633;
+	}
+	.social a{
+		text-decoration: none;
+		color: black;
+		font-size: 23px;
+		font-family: 'AR DESTINE';
+		float: right;
+		padding: 0px 5px;
+		transition: all 0.5s linear;
+	}
+	.social a:hover{
+		color: powderblue;
+	}
+	.social i{
+		margin-right: 3px;
+		color: #3366cc;
+	}
+	.head .social .fa-facebook-square,
+		.head .social .fa-twitter-square{
+			color: black;
+			margin-right: 4px;
+			text-decoration: none;
+			transition: all 1s linear;
+			margin-top: auto;
+
+		}
+		.head .social .fa-facebook-square:hover{
+			color: powderblue;
+			}
+		.head .social .fa-twitter-square:hover{
+			color: powderblue;
+		}
+	ul{
+		margin: 0;
+	}
+	ul li{
+		float: left;
+		list-style-type: none;
+	}
+	ul li a{
+		padding: 10px 22px;
+		text-decoration: none;
+		color: black;
+		display: block;
+		font-size: 25px;
+		font-family: 'AR DESTINE';
+		transition: all 0.5s linear;
+	}
+	ul li a:hover{
+		background-color: #006600;
+		color: white;
+		box-shadow: 0 3px 0 3px black;
+		display:block;
+		}	
+	.dropdown{
+		position: absolute;
+		padding: 5px;
+		width: 130px;
+		display: none;
+		background-color: #006600;
+	 box-shadow: 0 3px 0 3px grey;
+	 transition: all 0.3s linear;
+	 }
+	
+ .dropdown:hover{
+ 	background-color: #336633;
+ 	box-shadow: 0 3px 0 3px black;
+ 	 }
+ 	
+ 	 .dropbtn:hover .dropdown{
+ 	 	display: block;
+ 	 }
+ 	 </style>
+<div class="gaminghead">
+<a href="#">GAMING ZONE</a>
+</div>
+<div class="head">
+<div id="wrapper">
+<div class="social">
+	<a href="facebook.html" target="_blank"><i class="fa fa-facebook-square fa-2x"></i>Facebook</a>
+	<a href="twitter.html" target="_blank"><i class="fa fa-twitter-square fa-2x"></i>Twitter</a>
+	</div>
+<ul>
+	<li><a href="A Gamingzone(project).html">Home</a></li>
+	<li class="dropbtn"><a href="#" >Categories</a>
+	<div class="dropdown">
+		<a href="Racing.html">Racing</a>
+		<a href="Strategy.html">Strategy</a>
+		<a href="Shooting.html">Shooting</a>
+		<a href="Combat.html">Combat</a>
+		<a href="Fun games.html">Fun games</a>
+	</div>
+	</li>
+	<li><a href="gallery.html">Gallery</a></li>
+	<li><a href="About us.html">About Us</a></li>
+	<li><a href="Join us.html">Join Us</a></li>
+</ul>
+</div>
+</div>
+<style type="text/css">
+	.body{
+		background: url(images/gaming_keyboard_headphones_computer_mouse_73401_1920x1080.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		height: 5600px;
+		width: 100%;
+	}
+	.body h1{
+		margin: 2px;
+		padding: 15px;
+		text-align: center;
+		font-size: 30px;
+	}
+	.box{
+		border: 2px solid black;
+		margin: 0.5px 30px;
+		padding: 15px 30px;
+		height: 5350px;
+		
+	}
+	
+	.content{
+		float: left;
+		height: 263px;
+		margin:15px;
+		padding: 0 22px;
+		width: 285px;
+		border: 2px solid black;
+		border-radius: 15px 35px 15px 35px;
+		}
+		.content h2{
+			color: black;
+		}
+	.imgbox{
+		margin: 5px 15px;
+		height: 150px;
+		width: 180px;
+		}
+	.imgbox img{
+		border-radius: 20px 25px 20px 25px;
+		height: 150px;
+		width: 180px;
+		}
+	.imgbox img:hover{
+		transform: scale(0.98);
+	}
+	input[type=button]{
+		border-radius: 60px 60px 60px 60px;
+		background-color: black;
+		color: #339900;
+		margin: 80px 4px;
+		height: 45px;
+		width: 80px;
+		float: right;
+		font-size: 17px;
+		transition: all 0.3s linear;
+	}
+	input[type=button]:hover{
+		background-color: transparent;
+		color: black;
+	}
+	input[type=submit]{
+		border-radius: 30px 60px 30px 60px;
+		font-size: 16px;
+		color: powderblue;
+		background-color: #666666;
+		font-family: 'Bernard MT Con...';
+		margin: 0;
+		padding: 0;
+		height: 40px;
+		margin: 0 23px;
+		width: 75%;
+		transition: all 0.3s linear;
+		}
+	input[type=submit]:hover{
+		background-color: transparent;
+		color: #00ff00;
+	}
+	input[type=file]{
+		margin: 15px;
+		}
+</style>
+<div class="body">
+<h1>Please upload your games in my website for more fun ..........<hr>
+<input type="file" name="Upload" placeholder="Upload"><br>  
+Click here to upload ..
+</h1>
+<div class="box">
+	
+<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Night warrior assasin</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/night warrior assasin.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Army of two soldiers</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/army_of_two_soldiers_special_forces_equipment_mask_99108_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Devil may cry 5</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/devil_may_cry_5_dante_art_dmc_96126_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Skyrim</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/skyrim_game_art_rider_armor_staff_sword_99474_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Street fighter</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/street_fighter_x_tekken_ryu_angry_rain_clothes_22210_1920x1080.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+<div id="wrapper">
+	<div class="content">
+	<h2 align="center">The legend of Zelda</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/the_legend_of_zelda_graphics_quote_eyes_zelda_22305_1920x1080.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Warcraft</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/world_of_warcraft_girl_elf_bow_16249_3840x2400.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">The witcher 3</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/the_witcher_3_wild_hunt_cd_projekt_red_the_witcher_sword_girl_look_cris_scar_zirael_97284_1920x1080.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Mortal combat</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/mortal_kombat_x_scorpio_ninja_pose_96758_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Overwatch</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/overwatch_junkrat_mako_rutledge_jamison_fawkes_106631_1920x1080.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">The sims 4</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/the_sims_4_maxis_software_2014_pc_mac_100217_1920x1080.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Battle of the immortal</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/battle_of_the_immortals_warrior_art_fire_weapons_armor_100698_1024x768.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Dota 2</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/dota_2_art_logo_dark_94988_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Halo 5 </h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/halo_5_guardians_343_industries_master_chief_105941_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Grand theft Auto V</h2>
+		
+	<div class="imgbox">
+	<img src="images/gta_v_grand_theft_auto_v_game_bridge_logo_99679_1600x1200.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Rise of Nations</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/rise_of_nations_thrones_and_patriots_rise_of_nations_strategy_game_big_huge_games_98757_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Killzone</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/killzone_shadow_fall_killzone_guerrilla_games_sony_computer_entertainment_soldiers_weapons_military_equipment_96157_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Phantom Assasin</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/phantom_assassin_dota_2_dark_wraith_set_93810_1920x1080.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Cabalfan (league of nation)</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/cabalfan_league_of_legends_kayle_99299_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+	
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Game of throne</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/game_of_thrones_a_telltale_games_series_macos_mobile_pc_telltale_games_hbo_93422_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Prey 2</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/prey_2_man_back_110227_1920x1080.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Crisis 2</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/Crysis-3-PC-game_1920x1080.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Modern combat 5</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/modern combat 5.png">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Sniper fury</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/sniper fury.png">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Layers of fear</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/layers_of_fear_game_2016_horror_bloober_team_107312_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Dark souls</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/dark_souls_ii_dark_souls_warrior_knight_from_software_namco_bandai_games_98197_1920x1080 (1).jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Darksiders war</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/darksiders_war_horse_fire_city_21821_1366x768.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Full spectrum warrior</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/full_spectrum_warrior_strategy_game_tactics_pandemic_studios_98788_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Assasin creed</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/assassins_creed_desmond_miles_assassins_symbol_background_light_quote_19622_1920x1080.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Poker dice</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/game_poker_dice_chips_7877_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Dice casino</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/game_dice_casino_las_vegas_80259_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Mario cart 8</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/mario_kart_8_arcade_racing_may_2014_mario_toadette_daisy_koopa_troopa_bowser_donkey_kong_luigi_waluigi_peach_93324_1920x1080.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Dragon mania legends</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/Dragon mania legends.png">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Heart Deluxe</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/Heart deluxe.png">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Mahjong</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/mahjong.png">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Chess</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/Chess.png">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Piano</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/Piano 3D.png">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Dungeon hunter 4</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/dungeon hunter 4.png">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Saints row</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/saints_row_iv_saints_row_4_saints_row_volition_incorporated_100478_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Death Race</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/death_race_2015_ea_nfs_cars_108447_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Asphalt</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/Asphalt_rivals_lamborghini_aventador_lamborghini_veneno_dodge_srt_viper_93936_1920x1080.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Need for speed</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/need_for_speed_rivals_lamborghini_veneno_dodge_srt_viper_maserati_granturismo_mc_stradale_93935_1920x1080.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Gt Racing</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/Gtracing.png">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Speed racing</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/speed-racing-car-free-1-1-s-307x512.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Asphalt Xtreme</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/Asphalt_xtreme.png">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">League of legends</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/league_of_legends_lol_elise_girl_armor_claws_minimalism_97279_1680x1050.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Curse of naxramas</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/hearthstone_naxxramas_cards_logo_96558_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Heartstone</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play">	</a>
+	<div class="imgbox">
+	<img src="images/hearthstone_warcraft_lich_king_illidan_art_cards_96561_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Overwatch</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/overwatch_junkrat_mako_rutledge_jamison_fawkes_106631_1920x1080.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">The lord of rings</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/the_lord_of_the_rings_guardians_of_middle_earth_gandalf_wizard_staff_100084_1920x1080.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Battlefield 4(soldiers wea..)</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/battlefield_4_bf4_soldiers_weapons_gun_automatic_rain_equipment_body_armor_gloves_jump_lights_ea_digital_illusions_ce_electronic_arts_dice_95012_602x339.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+	</div>		
+	</div>
+	</div>
+
+	<div id="wrapper">
+	<div class="content">
+	<h2 align="center">Battlefield 4(digital illu..)</h2>
+	<a href="play.html" target="_blank"><input type="button" value="Play"></a>	
+	<div class="imgbox">
+	<img src="images/battlefield_4_game_ea_digital_illusions_ce_93159_1920x1080.jpg">
+	<a href="downloads.html" target="_blank"><input type="submit" value="Download"></a>
+
+	<audio controls autoplay>
+<source src="charlie.mp3" type="audio/mp3">
+</audio>
+
+	</div>		
+	</div>
+	</div>
+
+</div>
+</div></a>
+<style type="text/css">
+	.tbody{
+		margin: 0;
+		background: url(images/dzkaSWg.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		height: 550px;
+		width: 100%;
+	}
+	.tbody h1{
+		font-family: 'AR DESTINE'; 
+		margin: 5px;
+		text-align: center;
+		font-size: 90px;
+		color: white;
+	}
+	.angle{
+		font-size: 25px;
+		margin: 70px 310px;
+		width: 40%;
+		font-family: 'AR CENA';
+		text-decoration: none;
+		color: black;
+		border: 1px solid #66ff00;
+		border-radius: 20px 25px 20px 25px;
+		padding: 20px 25px;
+		opacity: 0.7;
+		background-color: #cc0000;
+		float: left;
+		}
+	.angle:hover{
+		background-color: transparent;
+		color: #000066;
+		border-color: #000066;
+	}
+	.angle i{
+		margin-right: -25px;
+		opacity: 0;
+		transition: all 0.2s linear;
+	}
+	.angle:hover i{
+		margin-right: 25px;
+		opacity: 1;
+		}
+	
+</style>
+<div class="tbody">
+	<h1>Top 10 games.,,<br>
+	You must play once in your life......
+	<div id="wrapper"><a href="top10.html" target="_blank" class="angle">Click here ...<i class="fa fa-angle-right"></i></a>
+	</h1>
+	</div>
+</div>
+</body>
+</html>
